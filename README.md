@@ -12,9 +12,10 @@ WeatherModel m;  //java bean对象
 ...
 初始化m
 ...
-System.out.print(objectToString(m))
+System.out.print(StringUtils.objectToString(m))
 
 ```
 
-打印结果如下：
+######打印结果如下：
+
 ![Test result](https://github.com/taolin2107/ObjectToString/raw/master/img/test_result.png)
